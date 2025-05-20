@@ -2,7 +2,7 @@
 import Topbar from "~/components/layout/full/Topbar.vue";
 
 const title = ref(
-  "Modernize - Nuxt3 Typescript based Free Admin Dashboard Template"
+  "HR Admin/ESS"
 );
 useHead({
   meta: [{ content: title }],

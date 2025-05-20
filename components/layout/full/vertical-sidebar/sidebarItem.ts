@@ -1084,5 +1084,38 @@ const sidebarItem: menu[] = [
     to: "/icons",
     external: false,
   },
+  {
+    header: "Employee Self Service",
+  },
+  {
+    title: "Dashboard",
+    icon: LayoutDashboardIcon,
+    to: "/employee/dashboard",
+    external: false,
+  },
+  {
+    title: "Attendance",
+    icon: CalendarIcon,
+    to: "/employee/attendance",
+    external: false,
+  },
+  {
+    title: "Leave",
+    icon: TicketIcon,
+    to: "/employee/leave",
+    external: false,
+  },
+  {
+    title: "Payslip",
+    icon: CurrencyDollarIcon,
+    to: "/employee/payslip",
+    external: false,
+  },
+  {
+    title: "Profile",
+    icon: UserCircleIcon,
+    to: "/employee/profile",
+    external: false,
+  },
 ];
 export default sidebarItem;
