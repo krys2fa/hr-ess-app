@@ -49,7 +49,7 @@
       <v-col cols="12" md="6">
         <v-card class="bg-white rounded-xl p-6 shadow">
           <h2 class="text-lg font-semibold mb-4 flex items-center gap-2">
-            <BarChartIcon
+            <ChartBarIcon
               style="width: 1.2em; height: 1.2em"
               class="inline-block"
             />
@@ -66,7 +66,7 @@
       <v-col cols="12" md="6">
         <v-card class="bg-white rounded-xl p-6 shadow">
           <h2 class="text-lg font-semibold mb-4 flex items-center gap-2">
-            <PieChartIcon
+            <ChartPieIcon
               style="width: 1.2em; height: 1.2em"
               class="inline-block"
             />
@@ -92,8 +92,8 @@ import {
   UserCircleIcon,
   TicketIcon,
   CalendarIcon,
-  BarChartIcon,
-  PieChartIcon,
+  ChartBarIcon,
+  ChartPieIcon,
 } from "vue-tabler-icons";
 
 // Simulated stats (replace with API calls in real app)

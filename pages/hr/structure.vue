@@ -154,7 +154,11 @@
         <v-form @submit.prevent="isEditDept ? updateDept() : addDept()">
           <v-row>
             <v-col cols="12">
-              <v-text-field v-model="deptModalData.name" label="Name" required />
+              <v-text-field
+                v-model="deptModalData.name"
+                label="Name"
+                required
+              />
             </v-col>
             <v-col cols="12">
               <v-text-field
@@ -165,12 +169,14 @@
           </v-row>
           <div class="flex justify-end mt-4">
             <BaseButtons
-              :buttons="
-                [
-                  { text: 'Cancel', color: 'default', onClick: closeDeptModal },
-                  { text: isEditDept ? 'Update' : 'Add', color: 'primary', type: 'submit' }
-                ]
-              "
+              :buttons="[
+                { text: 'Cancel', color: 'default', onClick: closeDeptModal },
+                {
+                  text: isEditDept ? 'Update' : 'Add',
+                  color: 'primary',
+                  type: 'submit',
+                },
+              ]"
             />
           </div>
         </v-form>
@@ -179,16 +185,20 @@
     <v-dialog v-model="showDeleteDeptModal" max-width="400">
       <UiChildCard title="Delete Department">
         <div class="mb-4">
-          Are you sure you want to delete <strong>{{ deptModalData.name }}</strong>?
+          Are you sure you want to delete
+          <strong>{{ deptModalData.name }}</strong
+          >?
         </div>
         <div class="flex justify-end mt-4">
           <BaseButtons
-            :buttons="
-              [
-                { text: 'Cancel', color: 'default', onClick: closeDeleteDeptModal },
-                { text: 'Delete', color: 'error', onClick: deleteDept }
-              ]
-            "
+            :buttons="[
+              {
+                text: 'Cancel',
+                color: 'default',
+                onClick: closeDeleteDeptModal,
+              },
+              { text: 'Delete', color: 'error', onClick: deleteDept },
+            ]"
           />
         </div>
       </UiChildCard>
@@ -200,12 +210,18 @@
         <v-form @submit.prevent="isEditRole ? updateRole() : addRole()">
           <v-row>
             <v-col cols="12">
-              <v-text-field v-model="roleModalData.title" label="Title" required />
+              <v-text-field
+                v-model="roleModalData.title"
+                label="Title"
+                required
+              />
             </v-col>
             <v-col cols="12">
               <v-select
                 v-model="roleModalData.departmentId"
-                :items="departments.map(d => ({ title: d.name, value: d.id }))"
+                :items="
+                  departments.map((d) => ({ title: d.name, value: d.id }))
+                "
                 label="Department"
                 required
               />
@@ -219,12 +235,14 @@
           </v-row>
           <div class="flex justify-end mt-4">
             <BaseButtons
-              :buttons="
-                [
-                  { text: 'Cancel', color: 'default', onClick: closeRoleModal },
-                  { text: isEditRole ? 'Update' : 'Add', color: 'primary', type: 'submit' }
-                ]
-              "
+              :buttons="[
+                { text: 'Cancel', color: 'default', onClick: closeRoleModal },
+                {
+                  text: isEditRole ? 'Update' : 'Add',
+                  color: 'primary',
+                  type: 'submit',
+                },
+              ]"
             />
           </div>
         </v-form>
@@ -233,16 +251,20 @@
     <v-dialog v-model="showDeleteRoleModal" max-width="400">
       <UiChildCard title="Delete Role">
         <div class="mb-4">
-          Are you sure you want to delete <strong>{{ roleModalData.title }}</strong>?
+          Are you sure you want to delete
+          <strong>{{ roleModalData.title }}</strong
+          >?
         </div>
         <div class="flex justify-end mt-4">
           <BaseButtons
-            :buttons="
-              [
-                { text: 'Cancel', color: 'default', onClick: closeDeleteRoleModal },
-                { text: 'Delete', color: 'error', onClick: deleteRole }
-              ]
-            "
+            :buttons="[
+              {
+                text: 'Cancel',
+                color: 'default',
+                onClick: closeDeleteRoleModal,
+              },
+              { text: 'Delete', color: 'error', onClick: deleteRole },
+            ]"
           />
         </div>
       </UiChildCard>
@@ -256,7 +278,7 @@
             <v-col cols="12">
               <v-select
                 v-model="reportModalData.roleId"
-                :items="roles.map(r => ({ title: r.title, value: r.id }))"
+                :items="roles.map((r) => ({ title: r.title, value: r.id }))"
                 label="Role"
                 required
               />
@@ -264,7 +286,7 @@
             <v-col cols="12">
               <v-select
                 v-model="reportModalData.reportsToId"
-                :items="roles.map(r => ({ title: r.title, value: r.id }))"
+                :items="roles.map((r) => ({ title: r.title, value: r.id }))"
                 label="Reports To"
                 required
               />
@@ -272,12 +294,14 @@
           </v-row>
           <div class="flex justify-end mt-4">
             <BaseButtons
-              :buttons="
-                [
-                  { text: 'Cancel', color: 'default', onClick: closeReportModal },
-                  { text: isEditReport ? 'Update' : 'Add', color: 'primary', type: 'submit' }
-                ]
-              "
+              :buttons="[
+                { text: 'Cancel', color: 'default', onClick: closeReportModal },
+                {
+                  text: isEditReport ? 'Update' : 'Add',
+                  color: 'primary',
+                  type: 'submit',
+                },
+              ]"
             />
           </div>
         </v-form>
@@ -290,12 +314,14 @@
         </div>
         <div class="flex justify-end mt-4">
           <BaseButtons
-            :buttons="
-              [
-                { text: 'Cancel', color: 'default', onClick: closeDeleteReportModal },
-                { text: 'Delete', color: 'error', onClick: deleteReport }
-              ]
-            "
+            :buttons="[
+              {
+                text: 'Cancel',
+                color: 'default',
+                onClick: closeDeleteReportModal,
+              },
+              { text: 'Delete', color: 'error', onClick: deleteReport },
+            ]"
           />
         </div>
       </UiChildCard>
