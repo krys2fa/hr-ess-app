@@ -665,55 +665,55 @@ const sidebarItem: menu[] = [
     external: true,
   },
 
-  { header: "Tables" },
-  {
-    title: "Basic Table",
-    icon: BorderAllIcon,
-    to: "https://modernize-nuxt.adminmart.com/tables/basic",
-    chip: "Pro",
+  // { header: "Tables" },
+  // {
+  //   title: "Basic Table",
+  //   icon: BorderAllIcon,
+  //   to: "https://modernize-nuxt.adminmart.com/tables/basic",
+  //   chip: "Pro",
 
-    external: true,
-  },
-  {
-    title: "Dark Table",
-    icon: BorderHorizontalIcon,
-    to: "https://modernize-nuxt.adminmart.com/tables/dark",
-    chip: "Pro",
+  //   external: true,
+  // },
+  // {
+  //   title: "Dark Table",
+  //   icon: BorderHorizontalIcon,
+  //   to: "https://modernize-nuxt.adminmart.com/tables/dark",
+  //   chip: "Pro",
 
-    external: true,
-  },
-  {
-    title: "Density Table",
-    icon: BorderInnerIcon,
-    to: "https://modernize-nuxt.adminmart.com/tables/density",
-    chip: "Pro",
+  //   external: true,
+  // },
+  // {
+  //   title: "Density Table",
+  //   icon: BorderInnerIcon,
+  //   to: "https://modernize-nuxt.adminmart.com/tables/density",
+  //   chip: "Pro",
 
-    external: true,
-  },
-  {
-    title: "Fixed Header Table",
-    icon: BorderTopIcon,
-    to: "https://modernize-nuxt.adminmart.com/tables/fixed-header",
-    chip: "Pro",
+  //   external: true,
+  // },
+  // {
+  //   title: "Fixed Header Table",
+  //   icon: BorderTopIcon,
+  //   to: "https://modernize-nuxt.adminmart.com/tables/fixed-header",
+  //   chip: "Pro",
 
-    external: true,
-  },
-  {
-    title: "Height Table",
-    icon: BorderVerticalIcon,
-    to: "https://modernize-nuxt.adminmart.com/tables/height",
-    chip: "Pro",
+  //   external: true,
+  // },
+  // {
+  //   title: "Height Table",
+  //   icon: BorderVerticalIcon,
+  //   to: "https://modernize-nuxt.adminmart.com/tables/height",
+  //   chip: "Pro",
 
-    external: true,
-  },
-  {
-    title: "Editable Table",
-    icon: BorderStyle2Icon,
-    to: "https://modernize-nuxt.adminmart.com/tables/editable",
-    chip: "Pro",
+  //   external: true,
+  // },
+  // {
+  //   title: "Editable Table",
+  //   icon: BorderStyle2Icon,
+  //   to: "https://modernize-nuxt.adminmart.com/tables/editable",
+  //   chip: "Pro",
 
-    external: true,
-  },
+  //   external: true,
+  // },
   { header: "Data Tables" },
   {
     title: "Data Tables",
@@ -916,63 +916,63 @@ const sidebarItem: menu[] = [
     ],
   },
 
-  { header: "Charts" },
-  {
-    title: "Line",
-    icon: ChartLineIcon,
-    to: "https://modernize-nuxt.adminmart.com/charts/line-chart",
-    chip: "Pro",
+  // { header: "Charts" },
+  // {
+  //   title: "Line",
+  //   icon: ChartLineIcon,
+  //   to: "https://modernize-nuxt.adminmart.com/charts/line-chart",
+  //   chip: "Pro",
 
-    external: true,
-  },
-  {
-    title: "Gredient",
-    icon: ChartArcsIcon,
-    to: "https://modernize-nuxt.adminmart.com/charts/gredient-chart",
-    chip: "Pro",
+  //   external: true,
+  // },
+  // {
+  //   title: "Gredient",
+  //   icon: ChartArcsIcon,
+  //   to: "https://modernize-nuxt.adminmart.com/charts/gredient-chart",
+  //   chip: "Pro",
 
-    external: true,
-  },
-  {
-    title: "Area",
-    icon: ChartAreaIcon,
-    to: "https://modernize-nuxt.adminmart.com/charts/area-chart",
-    chip: "Pro",
+  //   external: true,
+  // },
+  // {
+  //   title: "Area",
+  //   icon: ChartAreaIcon,
+  //   to: "https://modernize-nuxt.adminmart.com/charts/area-chart",
+  //   chip: "Pro",
 
-    external: true,
-  },
-  {
-    title: "Candlestick",
-    icon: ChartCandleIcon,
-    to: "https://modernize-nuxt.adminmart.com/charts/candlestick-chart",
-    chip: "Pro",
+  //   external: true,
+  // },
+  // {
+  //   title: "Candlestick",
+  //   icon: ChartCandleIcon,
+  //   to: "https://modernize-nuxt.adminmart.com/charts/candlestick-chart",
+  //   chip: "Pro",
 
-    external: true,
-  },
-  {
-    title: "Column",
-    icon: ChartDotsIcon,
-    to: "https://modernize-nuxt.adminmart.com/charts/column-chart",
-    chip: "Pro",
+  //   external: true,
+  // },
+  // {
+  //   title: "Column",
+  //   icon: ChartDotsIcon,
+  //   to: "https://modernize-nuxt.adminmart.com/charts/column-chart",
+  //   chip: "Pro",
 
-    external: true,
-  },
-  {
-    title: "Doughnut & Pie",
-    icon: ChartDonut3Icon,
-    to: "https://modernize-nuxt.adminmart.com/charts/doughnut-pie-chart",
-    chip: "Pro",
+  //   external: true,
+  // },
+  // {
+  //   title: "Doughnut & Pie",
+  //   icon: ChartDonut3Icon,
+  //   to: "https://modernize-nuxt.adminmart.com/charts/doughnut-pie-chart",
+  //   chip: "Pro",
 
-    external: true,
-  },
-  {
-    title: "Radialbar & Radar",
-    icon: ChartRadarIcon,
-    to: "https://modernize-nuxt.adminmart.com/charts/radialbar-chart",
-    chip: "Pro",
+  //   external: true,
+  // },
+  // {
+  //   title: "Radialbar & Radar",
+  //   icon: ChartRadarIcon,
+  //   to: "https://modernize-nuxt.adminmart.com/charts/radialbar-chart",
+  //   chip: "Pro",
 
-    external: true,
-  },
+  //   external: true,
+  // },
 
   { header: "auth" },
   {
@@ -1115,6 +1115,43 @@ const sidebarItem: menu[] = [
     title: "Profile",
     icon: UserCircleIcon,
     to: "/employee/profile",
+    external: false,
+  },
+  { header: "HR Admin" },
+  {
+    title: "Leave Management",
+    icon: CalendarIcon,
+    to: "/hr/leave",
+    external: false,
+  },
+  {
+    title: "Employee Management",
+    icon: UserCircleIcon,
+    to: "/hr/employees",
+    external: false,
+  },
+  {
+    title: "Attendance QR",
+    icon: CalendarIcon,
+    to: "/hr/attendance-qr",
+    external: false,
+  },
+  {
+    title: "HR Dashboard",
+    icon: LayoutDashboardIcon,
+    to: "/hr/dashboard",
+    external: false,
+  },
+  {
+    title: "Payroll",
+    icon: CurrencyDollarIcon,
+    to: "/hr/payroll",
+    external: false,
+  },
+  {
+    title: "Structure",
+    icon: BoxIcon,
+    to: "/hr/structure",
     external: false,
   },
 ];
