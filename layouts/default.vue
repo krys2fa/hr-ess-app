@@ -6,17 +6,20 @@ const title = ref(
 );
 useHead({
   meta: [{ content: title }],
+  // titleTemplate: (titleChunk) => {
+  //   return titleChunk
+  //     ? `${titleChunk} - Nuxt3 Typescript based Free Admin Dashboard Template`
+  //     : "Modernize - Nuxt3 Typescript based Free Admin Dashboard Template";
+  // },
   titleTemplate: (titleChunk) => {
-    return titleChunk
-      ? `${titleChunk} - Nuxt3 Typescript based Free Admin Dashboard Template`
-      : "Modernize - Nuxt3 Typescript based Free Admin Dashboard Template";
+    return 'HR Admin/ESS';
   },
 });
 </script>
 
 <template>
   <v-locale-provider>
-    <Topbar />
+    <!-- <Topbar /> -->
     <v-app>
       <LayoutFullMain />
       <v-main>

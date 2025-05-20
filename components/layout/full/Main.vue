@@ -17,9 +17,9 @@ const sDrawer = ref(true);
     width="270"
   >
     <!---Logo part -->
-    <div class="pa-5">
+    <!-- <div class="pa-5">
       <LayoutFullLogo />
-    </div>
+    </div> -->
     <!-- ---------------------------------------------- -->
     <!---Navigation -->
     <!-- ---------------------------------------------- -->
@@ -52,9 +52,9 @@ const sDrawer = ref(true);
             <!---End Single Item-->
           </template>
         </v-list>
-        <div class="pa-4">
+        <!-- <div class="pa-4">
           <LayoutFullVerticalSidebarExtraBox />
-        </div>
+        </div> -->
       </perfect-scrollbar>
     </div>
   </v-navigation-drawer>
@@ -76,12 +76,12 @@ const sDrawer = ref(true);
       </div>
       <div>
         <!-- Upgrade button -->
-        <v-btn
+        <!-- <v-btn
           class="mr-2 bg-primary"
           href="https://adminmart.com/product/modernize-nuxt-js-admin-dashboard/?ref=56#product-demo-section"
           target="_blank"
           >Check Pro Template</v-btn
-        >
+        > -->
         <!-- User Profile -->
         <LayoutFullVerticalHeaderProfileDD />
       </div>
