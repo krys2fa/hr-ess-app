@@ -21,7 +21,7 @@
             position: absolute;
             top: -15px;
             right: 0;
-            max-height: 100px;
+            // max-height: 100px;
         }
         .side-profile-text{
             max-width: 100px;
@@ -31,24 +31,39 @@
 
 /*This is for the Vertical sidebar*/
 .scrollnavbar {
-    height: calc(100vh - 150px);
+  height: calc(100vh - 150px);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* Compact the sidebar for more visible links */
+  .v-list {
+    padding: 4px 0 !important;
+  }
+  .v-list-item {
+    min-height: 32px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    font-size: 0.92rem !important;
+    margin-bottom: 0 !important;
+  }
+  .v-list-item__prepend {
+    margin-inline-end: 8px !important;
+  }
+  .v-list-item-title {
+    font-size: 0.92rem !important;
+  }
+  .v-list-item__append {
+    font-size: 0.85rem !important;
+  }
+  .smallCap {
+    margin-top: 12px !important;
+    font-size: 0.82rem !important;
+    padding: 2px 0 !important;
+  }
 
     .userbottom {
         position: fixed;
         bottom: 0px;
         width: 100%;
-    }
-
-    .smallCap {
-        padding: 3px 0px !important;
-        font-size: 0.875rem;
-        font-weight: 500;
-        margin-top: 24px;
-        color: rgb(var(--v-theme-textPrimary));
-
-        &:first-child {
-            margin-top: 0 !important;
-        }
     }
 
     /*General Menu css*/
